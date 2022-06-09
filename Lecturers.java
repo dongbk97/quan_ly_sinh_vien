@@ -81,6 +81,7 @@ public class Lecturers extends Human implements Comparable<Lecturers> {
         this.yearOfExperience = Integer.parseInt(sc.nextLine());
         System.out.println("Nhập mức lương của giảng viên: ");
         this.salary = sc.nextDouble();
+        sc.nextLine();
         System.out.println("Nhập vị trí đang công tác của giảng viên: ");
         this.workplace = sc.nextLine();
     }
