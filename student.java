@@ -63,9 +63,9 @@ public class Student extends Human implements Comparable<Student>{
         System.out.println("Nhập thông tin sinh viên: ");
         this.IPutHuman();
         System.out.println("Nhập ID sinh viên: ");
-        this.iD_Student = sc.nextInt();
+        this.iD_Student = Integer.parseInt(sc.nextLine());
         System.out.println("Nhập khóa sinh viên: ");
-        this.course = sc.nextInt();
+        this.course = Integer.parseInt(sc.nextLine());
         System.out.println("Nhập chuyên nghành sinh viên: ");
         this.major = sc.nextLine();
         System.out.println("Nhập xếp loại của sinh viên: ");
