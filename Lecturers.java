@@ -74,11 +74,11 @@ public class Lecturers extends Human implements Comparable<Lecturers> {
         System.out.println("Nhập thông tin giảng viên: ");
         this.IPutHuman();
         System.out.println("Nhập ID của giảng viên: ");
-        this.iD_Lecturers = sc.nextInt();
+        this.iD_Lecturers = Integer.parseInt(sc.nextLine());
         System.out.println("Nhập chuyên ngành của giảng viên: ");
         this.specialized = sc.nextLine();
         System.out.println("Nhập Số năm kinh nghiệm của giảng viên: ");
-        this.yearOfExperience = sc.nextInt();
+        this.yearOfExperience = Integer.parseInt(sc.nextLine());
         System.out.println("Nhập mức lương của giảng viên: ");
         this.salary = sc.nextDouble();
         System.out.println("Nhập vị trí đang công tác của giảng viên: ");
